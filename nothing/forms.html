@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .form{
+                color: rgb(212, 28, 92);
+                background-color: azure;
+                margin-left:300px;
+                margin-top: 20px;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <form action="/action_page.php">
+
+                <fieldset>
+                    <legend>Log In</legend>
+                    <label for="Username">Username:<br></label>
+                    <input type="text" id="Username" name="Username" required autofocus><br>
+                    <label for="Password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                </fieldset>
+                <br>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+    
+                <p>Choose your favourite game</p>
+                <input type="radio" id="Football" name="Football" value="Football">
+                <label for="Football">Football</label><br><br>
+                <input type="radio" id="Cricket" name="Cricket" value="Cricket">
+                <label for="Cricket">Cricket</label><br><br>
+                <input type="radio" id="Rugby" name="Rugby" value="Rugby">
+                <label for="Rugby">Rugby</label><br><br>
+    
+                <fieldset>
+                    <legend>Car</legend>
+                    <p>Which vihicle do you have?</p><br>
+    
+                <input type="checkbox" id="Vihicle1" name="Vihicle1" value="Vihicle1">
+                <label for="I have a Bike">Football</label><br><br>
+                <input type="checkbox" id="Vihicle2" name="Vihicle2" value="Vihicle2">
+                <label for="I have a BMW">Football</label><br><br>
+
+                </fieldset>
+
+
+                <p>Select a new car for purchase</p>
+
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <option value="Volvo"> Volvo</option>
+                    <option value="TATA">TATA</option>
+                    <option value="Rolls Royace"> Rolls Royace</option>
+                </select>
+                <br><br><br>
+                <fieldset>
+                    <legend>Personal info</legend>
+                    <label for="favcolor">What is your favourite color? </label>
+                    <input type="color" id="favcolor" name="favcolor">
+                    <label for="birthday">Selec your birthday: <br></label>
+                    <input type="date" id="birthday" name="birthday" max="2005" min="1980"><br>
+                    <label for="mail">Email Address</label><br>
+                    <input type="email" id="mail" name="mail" size="30px" placeholder="@gmail.com"><br>
+                    <label for="broSis">Number of siblings:</label>
+                    <input type="number" id="broSis" name="broSis" max="5" min="0"><br>
+                </fieldset>
+                
+
+
+
+                <p>Bio:</p>
+                <textarea name="Bio" style="width: 200px; height: 230 px;">Write here</textarea><br><br><br>
+
+                <button type="reset">reset</button>
+                <input type="submit" value="submit">
+
+
+    
+         
+            </form>
+
+
+        </div>
+
+    </body>
+</html>
